@@ -1,5 +1,5 @@
 # ada
-store code from ada subject
+ada : store code from ada subject
 
 # Description
 
