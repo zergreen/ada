@@ -5,8 +5,7 @@ class knapSack {
   {
     // making and initializing dp array
     int []dp = new int[W + 1];
- 
- 
+   
     for (int i = 0; i < n ; i++) {
       for (int w = W; w >= 0; w--) {
  
@@ -29,5 +28,6 @@ class knapSack {
     int n = val.length;
     System.out.print(knapSack(W, wt, val, n));
   }
+ 
 }
  
